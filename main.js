@@ -73,7 +73,7 @@ ul.addEventListener('mousedown', (event) => {
         }
     }
 });
-// Додаемо на button (Delete) подію в якій ми видаляемо li з class delete
+// Додаемо на button (Delete) подію в якій ми delete li з class delete
 buttonDelete.addEventListener('click', function (liDelete) {
     {
         const li = ul.querySelector('li.delete')
