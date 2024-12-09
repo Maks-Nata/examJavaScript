@@ -1,3 +1,66 @@
-li:active{
-    background: aqua;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: cadetblue;
+}
+button{
+    width: 10vw;
+    height: 5vh;
+    border-radius:5px;
+    border:2px solid black;
+}
+.wrapper{
+    background: aliceblue;
+    width: 80%;
+    height: 90%;
+    margin: 5vh auto;
+    padding-top: 10vh;
+
+}
+/*-------upper textbox--------------*/
+#name{
+    width: 50vw;
+    height: 5vh;
+    margin-left: 10vw;
+    margin-right: 30px;
+    border: 2px solid dimgrey;
+}
+#send:hover{
+  color:blue;
+}
+h4{
+    margin-left: 10vw;
+}
+/*--------wrapperFortextbox----------*/
+.wrapperFortextbox{
+   margin-left: 10vw;
+  margin-top: 10vh;
+display: flex;
+  align-items: center;gap: 30px;
+}
+.wrapperForbutton{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+#target{
+    width: 50vw;
+   height:40vh ;
+   border: 2px solid dimgrey;padding: 10px;
+}
+#buttonSortname:hover{
+   color: blue;
+}
+#buttonSortvalue:hover{
+    color: blue;
+}
+#buttonDelete:hover{
+    color: red;
 }
